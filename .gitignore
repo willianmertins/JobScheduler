@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Certifique-se de NÃO ignorar as bibliotecas de classes do projeto.
+# Remova ou comente linhas como estas, se existirem:
+# /JobScheduler.Domain/
+# /JobScheduler.Infrastructure/
+# /JobScheduler.Application/
+
+# Se necessário, adicione exceções para garantir inclusão:
+!JobScheduler.Domain/**
+!JobScheduler.Infrastructure/**
+!JobScheduler.Application/**
